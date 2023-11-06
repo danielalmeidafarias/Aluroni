@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Aluroni 
+Projeto de estudo do curso "React: Lidando com arquivos estáticos" da Alura
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
