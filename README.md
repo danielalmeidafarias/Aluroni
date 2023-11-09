@@ -1,5 +1,5 @@
 # Aluroni 
-Projeto de estudo do curso "React: Lidando com arquivos estáticos" da Alura
+Projeto de estudo do curso "React: Lidando com arquivos estáticos" e "React: conhecendo a biblioteca React Router" da Alura
 
 ## Getting Started with Create React App
 
