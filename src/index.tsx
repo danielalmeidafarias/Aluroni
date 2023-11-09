@@ -4,7 +4,8 @@ import 'normalize.css';
 import './index.css';
 import Router from './routes';
 
-
+// Adicionando comentário para testar Pull Requests
+// Adicionando mais um comentário para testar o git rebase
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
