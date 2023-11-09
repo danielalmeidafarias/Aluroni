@@ -1,12 +1,11 @@
-import logo from 'assets/logo.svg';
 import styles from './Item.module.scss';
-import cardapio from '../itens.json';
+import cardapio from 'data/cardapio.json';
 import classNames from 'classnames';
 
 type Props = typeof cardapio[0]
 
 const Item = (props: Props) => {
-  const { title, description, category, id, photo, price, serving, size } = props;
+  const { title, description, category, photo, price, serving, size } = props;
 
   return (  
     <div className={styles.item}>
