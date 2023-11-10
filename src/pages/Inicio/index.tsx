@@ -17,9 +17,9 @@ const Inicio = () => {
 
   return (  
     <section>
-      <h3 className={stylesTema.titulo}>
+      <h2 className={stylesTema.titulo}>
         Recomendações da cozinha
-      </h3>
+      </h2>
       <div className={styles.recomendados}>
         {pratosRecomendados.map(item => (
           <div key={item.id} className={styles.recomendado}>
