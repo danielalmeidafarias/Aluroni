@@ -18,7 +18,7 @@ const Inicio = () => {
   return (  
     <section>
       <h2 className={stylesTema.titulo}>
-        Recomendações
+        Recomendações da Cozinha
       </h2>
       <div className={styles.recomendados}>
         {pratosRecomendados.map(item => (
