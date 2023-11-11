@@ -7,7 +7,7 @@ const PaginaPadrao = () => {
     <>
       <header className={styles.header}>
         <div className={styles.header__text}>
-            A casa do código e da massa
+            A casa do código e da massa!
         </div>
       </header>
       <div className={styleTema.container}>
