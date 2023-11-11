@@ -20,7 +20,7 @@ const Menu = () => {
 
   return (  
     <nav className={styles.menu}>
-      <Logo />
+      <Logo /> Aluroni
       <ul className={styles.menu__list}>
         {rotas.map((rota, index) => (
           <li key={index} className={styles.menu__link}>
