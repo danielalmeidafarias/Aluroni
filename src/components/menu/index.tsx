@@ -18,9 +18,9 @@ const Menu = () => {
     }
   ];
 
-  return (  
+  return (
     <nav className={styles.menu}>
-      <Logo /> Aluroni
+      Aluroni <Logo />
       <ul className={styles.menu__list}>
         {rotas.map((rota, index) => (
           <li key={index} className={styles.menu__link}>
@@ -31,5 +31,5 @@ const Menu = () => {
     </nav>
   );
 };
- 
+
 export default Menu;
