@@ -2,10 +2,12 @@ import styles from './Item.module.scss';
 import Tags from 'components/tags';
 import { PratoT } from 'types/prato';
 import { useNavigate } from 'react-router-dom';
+import { memo } from 'react';
 
 const Item = (props: PratoT) => {
   const { title, description, photo } = props;
   const navigate = useNavigate();
+
   return (  
     <div className={styles.item} onClick={() => navigate(`/prato/${props.id}`)}>
       <div className={styles.item__imagem}>
@@ -22,4 +24,4 @@ const Item = (props: PratoT) => {
   );
 };
  
-export default Item;
+export default memo(Item); 
