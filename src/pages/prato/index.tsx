@@ -2,9 +2,11 @@ import styles from './prato.module.scss';
 import { useParams, useNavigate, Routes, Route } from 'react-router-dom';
 import { PratoT } from 'types/prato';
 import cardapio from 'data/cardapio.json';
-import Tags from 'components/tags';
-import NotFound from 'pages/notFound';
 import PaginaPadrao from 'components/paginaPadrao';
+import { lazy } from 'react';
+
+const Tags = lazy(() => import('components/tags'));
+const NotFound = lazy(() => import('pages/notFound'));
 
 const Prato = () => {
   const { id } = useParams();
